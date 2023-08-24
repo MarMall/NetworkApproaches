@@ -1,11 +1,11 @@
-# remote_theme: MicrosoftLearning/Jekyll-Theme
+remote_theme: MicrosoftLearning/Jekyll-Theme
 exclude:
   - readme.md
   - .github/
   - Instructions/Demos/
   - Instructions/oldLabs/  
-# header_pages:
-#  - index.html
+header_pages:
+  - index.html
 author: M Mallow
 twitter_username: NetKnow
 github_username:  MarMall
