@@ -1,7 +1,7 @@
 ---
 lab:
-    title: 'Lab 20: Trying things out for RUG teaching'
-    module: 'Getting Started'
+    title: 'Lab 20: Lab Pre-Work and Lab Overview'
+    module: 'Overview'
 ---
 
 # Lab 20 - Trial for RUG teaching lab
