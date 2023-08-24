@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 20: Trying things out for RUG teaching'
-    module: 'Administer Governance and Compliance'
+    module: 'Getting Started'
 ---
 
 # Lab 20 - Trial for RUG teaching lab
@@ -10,18 +10,30 @@ lab:
 ## Lab requirements
 
 You need to have R (preferably a recent version) installed on a Linux, Windows or MacOS PC.
-You should have connected to Qualtrics via the RUG-MyUniversity access (LINK to be inserted here).
+You should have connected to [Qualtrics via the RUG-MyUniversity access](https://rug.eu.qualtrics.com/).
 
-## Lab scenario
+## What this lab will teach you
 
-In order to improve management of Azure resources in Contoso, you have been tasked with implementing the following functionality:
+We want to teach you a couple of things in this lab
 
-- creating a management group that would include all of Contoso's Azure subscriptions
+- How to think about integrated data collection
+    - i.e. network-specific data (relations)
+    - with individual-specific data (attributes)
 
-- granting permissions to submit support requests for all subscriptions in the management group to a designated Azure Active Directory user. That user's permissions should be limited only to: 
+- How to implement this in a Qualtrics and R workflow
+    - by first designing a survey in Qualtrics
+    - collecting the data
+    - importing the data into R
+    - processing and exploring the data in a network-specific R-package such as **igraph**
+    
+## Where this module fits into the overall course
 
-    - creating support request tickets
-    - viewing resource groups
+- modules so far have taught you...
+    - how to think about networks
+    - how to think about data collection
+    - how to think about data analysis
+    - how to think about data visualization
+    - how to think about data presentation
 
 **Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/AZ-104%20Exam%20Guide%20-%20Microsoft%20Azure%20Administrator%20Exercise%202)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
 
