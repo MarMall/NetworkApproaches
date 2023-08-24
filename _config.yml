@@ -5,9 +5,9 @@ exclude:
   - Instructions/Demos/  
 header_pages:
   - index.html
-author: Microsoft Learning
-twitter_username: mslearning
-github_username:  MicrosoftLearning
+author: M Mallow
+twitter_username: NetKnow
+github_username:  MarMall
 plugins:
   - jekyll-sitemap
   - jekyll-mentions
