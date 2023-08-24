@@ -1,4 +1,4 @@
-remote_theme: MicrosoftLearning/Jekyll-Theme
+# remote_theme: MicrosoftLearning/Jekyll-Theme
 exclude:
   - readme.md
   - .github/
