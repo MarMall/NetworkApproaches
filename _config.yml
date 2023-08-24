@@ -2,7 +2,8 @@ remote_theme: MicrosoftLearning/Jekyll-Theme
 exclude:
   - readme.md
   - .github/
-  - Instructions/Demos/  
+  - Instructions/Demos/
+  - Instructions/oldLabs/  
 header_pages:
   - index.html
 author: M Mallow
