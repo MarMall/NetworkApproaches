@@ -20,10 +20,12 @@ We want to teach you a couple of things in this lab
     - i.e. network-specific data (relations)
     - with individual-specific data (attributes)
 
-- How to implement this in a Qualtrics and R workflow
+- How to implement this in a streamlined Qualtrics and R workflow
     - by first designing a survey in Qualtrics
     - collecting the data
     - importing the data into R
+
+- Doing exploratory network analysis in R
     - processing and exploring the data in a network-specific R-package such as **igraph**
     
 ## Where this module fits into the overall course
@@ -35,27 +37,44 @@ We want to teach you a couple of things in this lab
     - how to think about data visualization
     - how to think about data presentation
 
-**Note:** An **[interactive lab simulation](https://mslabs.cloudguides.com/guides/AZ-104%20Exam%20Guide%20-%20Microsoft%20Azure%20Administrator%20Exercise%202)** is available that allows you to click through this lab at your own pace. You may find slight differences between the interactive simulation and the hosted lab, but the core concepts and ideas being demonstrated are the same.
-
 ## Objectives
 
-In this lab, you will:
+This lab is divided into three sub-sections (for better orientability), and in the separate sub-modules you will:
 
-+ Task 1: Implement Management Groups
-+ Task 2: Create custom RBAC roles 
-+ Task 3: Assign RBAC roles
++ Task 1: Implement your research plan (and hypothesis into a Qualtrics survey) - sub A
++ Task 2: Import the collected data into R - sub B
++ Task 3: Carry out exploratory network analysis in R - sub C
 
 
-## Estimated timing: 30 minutes
+## Estimated timing for all three lab session: 90 minutes
 
 ## Architecture diagram
-
+<!-- 
 ![image](../media/lab02a.png)
-
+ -->
 
 ### Instructions
 
 ## Exercise 1
+
+
+   ```r
+   
+    library(igraph)
+    library(ggraph)
+
+    relations <- data.frame(from=c("Bob", "Cecil", "Cecil", "David", "David", "Esmeralda"),
+                        to=c("Alice", "Bob", "Alice", "Alice", "Bob", "Alice"),
+                        weight=c(4,5,5,2,1,1))
+
+    # Load (DIRECTED) graph from data frame 
+    g <- graph.data.frame(relations, directed=TRUE)
+
+    # Plot graph
+    plot(g, edge.width=E(g)$weight)
+   ```
+
+
 
 ## Task 1: Implement Management Groups
 
