@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 20: Lab Pre-Work and Lab Overview'
-    module: 'Overview'
+    module: 'Network Data Collection and Survey Scales'
 ---
 
 # Lab 20 - Trial for RUG teaching lab
@@ -31,49 +31,35 @@ We want to teach you a couple of things in this lab
 ## Where this module fits into the overall course
 
 - modules so far have taught you...
-    - how to think about networks
-    - how to think about data collection
-    - how to think about data analysis
-    - how to think about data visualization
-    - how to think about data presentation
+    - how you can networks can play a role in many different types of research approaches
+        - textual data (documents relations as networks)
+        - qualitative data (policy processes as networks)
+        - economic data (business ties and kinship ties)
+
+- this module aims to give you an idea of...
+    - how to implement your research ideas into a network-oriented data collection 
+    - how to connect your data to network analysis workflows in R
+    - how via network data visualisation you can show that more research into specific patterns is warranted
+    
 
 ## Objectives
 
 This lab is divided into three sub-sections (for better orientability), and in the separate sub-modules you will:
 
-+ Task 1: Implement your research plan (and hypothesis into a Qualtrics survey) - sub A
-+ Task 2: Import the collected data into R - sub B
-+ Task 3: Carry out exploratory network analysis in R - sub C
++ Task 1: Implement your research plan (and hypothesis into a Qualtrics survey) - Lab 20-2-A
++ Task 2: Import the collected data into R - Lab 20-2-B
++ Task 3: Carry out exploratory network analysis in R - Lab 20-2-C
+
+(NB: Task 1 should be carried out as preparotary work before the lab session, and Task 2 and 3 are carried out during the lab session)
+
+## Estimated timing for all three lab session: ~120 minutes
 
 
-## Estimated timing for all three lab session: 90 minutes
+## Moving on to first sub-lab 20-2-A
 
-## Architecture diagram
-<!-- 
-![image](../media/lab02a.png)
- -->
+Please move on to the first [sub-lab 20-2-A](LINK HERE), where you will implement your research plan into a Qualtrics survey.
 
-### Instructions
-
-## Exercise 1
-
-
-   ```r
-   
-    library(igraph)
-    library(ggraph)
-
-    relations <- data.frame(from=c("Bob", "Cecil", "Cecil", "David", "David", "Esmeralda"),
-                        to=c("Alice", "Bob", "Alice", "Alice", "Bob", "Alice"),
-                        weight=c(4,5,5,2,1,1))
-
-    # Load (DIRECTED) graph from data frame 
-    g <- graph.data.frame(relations, directed=TRUE)
-
-    # Plot graph
-    plot(g, edge.width=E(g)$weight)
-   ```
-
+[]: # (C) 2020, RUG, Jan F. Krems et al., CC-BY-SA 4.0
 
 
 ## Task 1: Implement Management Groups
