@@ -14,30 +14,23 @@ You should have connected to [Qualtrics via the RUG-MyUniversity access](https:/
 
 ## What this sub-lab will teach you
 
-We want to teach you a couple of things in this lab
+- How to create a quick network-roster type survey for network-specific data collection...
+    - capturing **network-specific relational data** between individuals of a defined population (within boundary
+    - adding **non-network specific data** to the network data collection
+        - demographic information
+        - depending on research ideas specifically designed question scales
 
-- How to think about integrated data collection
-    - i.e. network-specific data (relations)
-    - with individual-specific data (attributes)
-
-- How to implement this in a streamlined Qualtrics and R workflow
-    - by first designing a survey in Qualtrics
-    - collecting the data
-    - importing the data into R
-
-- Doing exploratory network analysis in R
-    - processing and exploring the data in a network-specific R-package such as **igraph**
-    
+- Kick-Off Data Collection
+    - How to distribute the survey to your population of interest
+    - How to monitor the data collection process
     
 
 ## Sub-Lab's Objective
 
-This lab is divided into three sub-sections (for better orientability), and in the separate sub-modules you will:
-
 + **Task 1: Implement your research plan (and hypothesis into a Qualtrics survey) - Lab 20-2-A**
-+ Task 2: Import the collected data into R - Lab 20-2-B
+<!-- + Task 2: Import the collected data into R - Lab 20-2-B
 + Task 3: Carry out exploratory network analysis in R - Lab 20-2-C
-
+ -->
 (NB: Task 1 should be carried out as preparatory work before the lab session, and Task 2 and 3 are carried out during the lab session)
 
 ## Estimated timing for this lab session: ~ 45 minutes
@@ -50,6 +43,11 @@ This lab is divided into three sub-sections (for better orientability), and in t
 ### Instructions
 
 ## Exercise 1
+
+- Make a nice layout of your data bits and pieces.
+    - i.e. the network relations you want to capture,
+    - the directionality of those relations
+    - the non-network information you want to capture
 
 
    ```r
@@ -69,27 +67,30 @@ This lab is divided into three sub-sections (for better orientability), and in t
    ```
 
 
-## Task 1: Implement Management Groups
+## Task 1: Go ahead in Qualtrics
 
-In this task, you will create and configure management groups. 
+In this task, you will create and configur your survey. There are many different ways of collection network type data (see slides), but one of the most common is the **roster type survey**. In this type of survey, you first define the population of interest, and then you ask respondents to indicate their relations to other members of the population.
 
-1. Sign in to the [**Azure portal**](http://portal.azure.com).
+1. Sign in to the [**RUG - Qualtrics account**](https://rug.eu.qualtrics.com/).
 
-1. Search for and select **Management groups** to navigate to the **Management groups** blade.
+1. Then go to [Create a project](https://rug.eu.qualtrics.com/app/catalog/projects) or [Create your first survey] (https://rug.eu.qualtrics.com/app/catalog/projects/results?search=survey) **and** then create a survey **from scratch** (as shown in the following screenshot).
 
-1. Review the messages at the top of the **Management groups** blade. If you are seeing the message stating **You are registered as a directory admin but do not have the necessary permissions to access the root management group**, perfom the following sequence of steps:
+    ![image](../media/lab20-2a-01-fromScratch.png)
 
-    1. In the Azure portal, search for and select **Azure Active Directory**.
+    1. then give your survey project a name (e.g. **Lab 20-2-A**), and click **Create Survey**.
     
-    1.  On the blade displaying properties of your Azure Active Directory tenant, in the vertical menu on the left side, in the **Manage** section, select **Properties**.
-    
-    1.  On the **Properties** blade of your your Azure Active Directory tenant, in the **Access management for Azure resources** section, select **Yes** and then select **Save**.
-    
-    1.  Navigate back to the **Management groups** blade, and select **Refresh**.
+    1. From here you will have two options...
 
-1. On the **Management groups** blade, click **+ Create**.
+        1. either, you can create your very own little network survey from scratch,
+        1. or, you can build on a template that we have created for you.
 
-    >**Note**: If you have not previously created Management Groups, select **Start using management groups**
+        You see both options shown in the following screenshot. Please choose accordingly.
+        
+        ![image](../media/lab20-2a-02-chooseTemplateOrNot.png)
+
+        >**Note**: If you have not previously worked with Qualtrics or other online survey tools, it might be wise to have a look at the following link on [Survey component basics](https://www.qualtrics.com/support/survey-platform/survey-module/survey-module-overview/)
+
+
 
 1. Create a management group with the following settings:
 
