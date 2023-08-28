@@ -82,7 +82,7 @@ In this task, you will create and configur your survey. There are many different
     1. From here you will have two options...
 
         1. either, you can create your very own little network survey from scratch,
-        1. or, you can build on a template that we have created for you.
+        1. or, you can build on a template that we have created for you (which is the recommended way forward for this lab)
 
         You see both options shown in the following screenshot. Please choose accordingly.
         
@@ -91,7 +91,15 @@ In this task, you will create and configur your survey. There are many different
         >**Note**: If you have not previously worked with Qualtrics or other online survey tools, it might be wise to have a look at the following link on [Survey component basics](https://www.qualtrics.com/support/survey-platform/survey-module/survey-module-overview/)
 
 
+## Task 2: Importing the .qsf file for survey import
 
+1. In case you want to build your very own network survey without any help, please skip this task.
+
+1. If you are curious, what network roster type questions look like, then please go ahead and download this [.qsf file](https://unishare.nl/index.php/s/7rY8Xa8TEFfj8wi) that we have made available on UniShare (link: https://unishare.nl/index.php/s/7rY8Xa8TEFfj8wi)
+
+>**Note**: please look up the official Qualtrics documentation for more infos on [Importing and Exporting surveys] (https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/#ExportingaSurveyasaQSF)
+ you are working on.
+ 
 1. Create a management group with the following settings:
 
     | Setting | Value |
