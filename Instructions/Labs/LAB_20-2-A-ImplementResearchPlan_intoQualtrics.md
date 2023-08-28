@@ -82,3 +82,15 @@ In this task, you will create and configur your survey. There are many different
 
 >**Note**: please look up the official Qualtrics documentation for more infos on [Importing and Exporting surveys] (https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/#ExportingaSurveyasaQSF)
  you are working on.
+
+## Task 3: Modify the survey questions to match your research ideas
+
+1. ... etc.
+1. ... etc.
+
+## Task 4: Collect your data
+
+1. ... etc.
+2. ... etc.
+
+## Task 5: Export the data for Data Analysis and Exploration
