@@ -82,11 +82,3 @@ In this task, you will create and configur your survey. There are many different
 
 >**Note**: please look up the official Qualtrics documentation for more infos on [Importing and Exporting surveys] (https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/#ExportingaSurveyasaQSF)
  you are working on.
-https://unishare.nl/index.php/s/7rY8Xa8TEFfj8wi 
-1. Create a management group with the following settings:
-
-    | Setting | Value |
-    | --- | --- |
-    | Management group ID | **az104-02-mg1** |
-    | Management group display name | **az104-02-mg1** |https://unishare.nl/index.php/s/7rY8Xa8TEFfj8wi
-
