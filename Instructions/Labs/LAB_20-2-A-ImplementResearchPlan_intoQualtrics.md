@@ -78,15 +78,15 @@ In this task, you will create and configur your survey. There are many different
 
 1. In case you want to build your very own network survey without any help, please skip this task.
 
-1. If you are curious, what network roster type questions look like, then please go ahead and download this [.qsf file](https://unishare.nl/index.php/s/7rY8Xa8TEFfj8wi) that we have made available on UniShare (link: https://unishare.nl/index.php/s/7rY8Xa8TEFfj8wi)
+1. If you are curious, what network roster type questions look like, then please go ahead and download this [.qsf file](https://unishare.nl/index.php/s/JdwMseKp6oTEbWJ) that we have made available on UniShare (link: https://unishare.nl/index.php/s/JdwMseKp6oTEbWJ)
 
 >**Note**: please look up the official Qualtrics documentation for more infos on [Importing and Exporting surveys] (https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/#ExportingaSurveyasaQSF)
  you are working on.
- 
+https://unishare.nl/index.php/s/7rY8Xa8TEFfj8wi 
 1. Create a management group with the following settings:
 
     | Setting | Value |
     | --- | --- |
     | Management group ID | **az104-02-mg1** |
-    | Management group display name | **az104-02-mg1** |
+    | Management group display name | **az104-02-mg1** |https://unishare.nl/index.php/s/7rY8Xa8TEFfj8wi
 
