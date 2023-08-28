@@ -50,23 +50,6 @@ You should have connected to [Qualtrics via the RUG-MyUniversity access](https:/
     - the non-network information you want to capture
 
 
-   ```r
-   
-    library(igraph)
-    library(ggraph)
-
-    relations <- data.frame(from=c("Bob", "Cecil", "Cecil", "David", "David", "Esmeralda"),
-                        to=c("Alice", "Bob", "Alice", "Alice", "Bob", "Alice"),
-                        weight=c(4,5,5,2,1,1))
-
-    # Load (DIRECTED) graph from data frame 
-    g <- graph.data.frame(relations, directed=TRUE)
-
-    # Plot graph
-    plot(g, edge.width=E(g)$weight)
-   ```
-
-
 ## Task 1: Go ahead in Qualtrics
 
 In this task, you will create and configur your survey. There are many different ways of collection network type data (see slides), but one of the most common is the **roster type survey**. In this type of survey, you first define the population of interest, and then you ask respondents to indicate their relations to other members of the population.
