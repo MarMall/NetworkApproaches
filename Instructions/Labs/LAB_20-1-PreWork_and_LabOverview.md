@@ -50,7 +50,7 @@ This lab is divided into three sub-sections (for better orientability), and in t
 + Task 2: Import the collected data into R - Lab 20-2-B
 + Task 3: Carry out exploratory network analysis in R - Lab 20-2-C
 
-(NB: Task 1 should be carried out as preparotary work before the lab session, and Task 2 and 3 are carried out during the lab session)
+(NB: Task 1 should be carried out as preparatary work before the lab session, and Task 2 and 3 are carried out during the lab session)
 
 ## Estimated timing for all three lab session: ~120 minutes
 
