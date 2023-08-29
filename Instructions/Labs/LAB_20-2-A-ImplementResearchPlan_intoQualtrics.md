@@ -5,7 +5,6 @@ lab:
 ---
 
 # Lab 20 - M Mallow's RUG teaching lab
-# Student lab manual
 
 ## Pre-Lab requirements
 
