@@ -101,4 +101,4 @@ In this task, you will create and configure your survey. There are many differen
 
 1. then you distribute your survey to potential respondents (there are many possible ways to do this - e.g. via a survey link or QR-code (recommended here to get quick responses from your classmates)
 
->**Note**: again, the official Qualtrics documentation is your best friend here [Importing and Exporting surveys] (https://www.qualtrics.com/support/survey-platform/distributions-module/distributions-overview/)
+>**Note**: again, the official Qualtrics documentation is your best friend here [Ways of Distributing your survey] (https://www.qualtrics.com/support/survey-platform/distributions-module/distributions-overview/)
