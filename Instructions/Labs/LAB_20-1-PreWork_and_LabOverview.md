@@ -4,7 +4,7 @@ lab:
     module: 'Network Data Collection and Survey Scales'
 ---
 
-# Lab - Network Data Collection via Surveys
+# Lab - Part PREP - Network Data Collection via Surveys
 
 ## Lab requirements
 
