@@ -26,10 +26,13 @@ You should have connected to [Qualtrics via the RUG-MyUniversity access](https:/
 
 ## Sub-Lab's Objective
 
-+ **Task 1: Implement your research plan (and hypothesis into a Qualtrics survey) - Lab 20-2-A**
-<!-- + Task 2: Import the collected data into R - Lab 20-2-B + Task 3: Carry out exploratory network analysis in R - Lab 20-2-C -->
+This lab is divided into three sub-sections (for better orientability), and in the separate sub-modules you will:
 
-(NB: Task 1 should be carried out as preparatory work before the lab session, and Task 2 and 3 are carried out during the lab session)
++ **Task 1: Implement your research plan (and hypothesis into a Qualtrics survey) - Lab 20-2-A**
++ ~~Task 2: Network Data - Export from Qualtrics and Import into R - Lab 20-3-B~~
++ ~~Task 3: Carry out exploratory network analysis in R - Lab 20-4-C~~
+
+(NB: preferably you have collected your own data, but in case that was not possible, or too difficult for some reason, we also provide a sample dataset in the following)
 
 ## Estimated timing for this lab session: ~ 45 minutes
 
