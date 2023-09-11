@@ -4,9 +4,9 @@ lab:
     module: 'Network Data Collection and Survey Scales'
 ---
 
-# Lab 20 - M Mallow's RUG teaching lab
+# Lab - Part B - Network Data Collection via Surveys
 
-## Pre-Lab requirements
+## Lab requirements
 
 You need to have R (preferably a recent version) installed on a Linux, Windows or MacOS PC.
 You should have connected to [Qualtrics via the RUG-MyUniversity access](https://rug.eu.qualtrics.com/).
@@ -99,7 +99,6 @@ In this task, you will create and configure your survey. There are many differen
 
 1. when you are fairly certain that the survey is running flawless and collects the your network data as desired, click on the "Publish" button to go from testing to data collection mode.
 
-## Task 6: Export the data for Data Analysis and Exploration
+1. then you distribute your survey to potential respondents (there are many possible ways to do this - e.g. via a survey link
 
-1. ...
-1. ...
+>**Note**: again, the official Qualtrics documentation is your best friend here [Importing and Exporting surveys] (https://www.qualtrics.com/support/survey-platform/distributions-module/distributions-overview/)
