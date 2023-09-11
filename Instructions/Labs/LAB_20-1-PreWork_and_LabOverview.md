@@ -31,9 +31,8 @@ We want to teach you a couple of things in this lab
 ## Where this module fits into the overall course
 
 - modules so far have taught you...
-    - how you can networks can play a role in many different types of research approaches
-        - textual data (documents relations as networks)
-        - qualitative data (policy processes as networks)
+    - how networks can play a role in a diversity of mixed-methods research approaches in the form of...
+        - textual data (documents' relations and narratives as networks)
         - economic data (business ties and kinship ties)
 
 - this module aims to give you an idea of...
@@ -50,7 +49,7 @@ This lab is divided into three sub-sections (for better orientability), and in t
 + Task 2: Import the collected data into R - Lab 20-2-B
 + Task 3: Carry out exploratory network analysis in R - Lab 20-2-C
 
-(NB: Task 1 should be carried out as preparatary work before the lab session, and Task 2 and 3 are carried out during the lab session)
+(NB: Tasks 1 and 2 should be carried out as preparatory work before the lab session as far as possible, and task 3 will be carried out during the lab session)
 
 ## Estimated timing for all three lab session: ~120 minutes
 
