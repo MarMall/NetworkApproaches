@@ -4,8 +4,7 @@ lab:
     module: 'Network Data Collection and Survey Scales'
 ---
 
-# Lab 20 - Trial for RUG teaching lab
-# Student lab manual
+# Lab - Network Data Collection via Surveys
 
 ## Lab requirements
 
