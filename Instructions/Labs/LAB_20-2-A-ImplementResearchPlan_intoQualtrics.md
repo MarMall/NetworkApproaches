@@ -102,3 +102,8 @@ In this task, you will create and configure your survey. There are many differen
 1. then you distribute your survey to potential respondents (there are many possible ways to do this - e.g. via a survey link or QR-code (recommended here to get quick responses from your classmates)
 
 >**Note**: again, the official Qualtrics documentation is your best friend here [Ways of Distributing your survey] (https://www.qualtrics.com/support/survey-platform/distributions-module/distributions-overview/)
+
+## Moving on to first sub-lab 20-3-B
+
+Please move on to the next [sub-lab 20-3-A](LAB_20-2-A-ImplementResearchPlan_intoQualtrics.md), where you will implement your research plan into a Qualtrics survey.
+
