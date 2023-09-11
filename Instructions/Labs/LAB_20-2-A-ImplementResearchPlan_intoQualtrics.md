@@ -99,6 +99,6 @@ In this task, you will create and configure your survey. There are many differen
 
 1. when you are fairly certain that the survey is running flawless and collects the your network data as desired, click on the "Publish" button to go from testing to data collection mode.
 
-1. then you distribute your survey to potential respondents (there are many possible ways to do this - e.g. via a survey link
+1. then you distribute your survey to potential respondents (there are many possible ways to do this - e.g. via a survey link or QR-code (recommended here to get quick responses from your classmates)
 
 >**Note**: again, the official Qualtrics documentation is your best friend here [Importing and Exporting surveys] (https://www.qualtrics.com/support/survey-platform/distributions-module/distributions-overview/)
