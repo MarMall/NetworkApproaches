@@ -4,13 +4,13 @@ lab:
     module: 'Network Data Collection and Survey Scales'
 ---
 
-# Lab 20 - M Mallow's RUG teaching lab
+# Lab - Part B - Data Transfer from Qualtrics to R
 
 ## What this sub-lab will teach you
 
 We want to teach you a couple of things in this lab
 
-- Exporting the data from Qualtrics
+- Exporting network data from Qualtrics
 - Importing the data into R
 
 <!-- - Doing exploratory network analysis in R
@@ -30,7 +30,6 @@ This lab is divided into three sub-sections (for better orientability), and in t
 
 ## Estimated timing for this lab session: ~ 20 minutes
 
-## Architecture diagram
 <!-- 
 ![image](../media/lab02a.png)
  -->
@@ -38,6 +37,9 @@ This lab is divided into three sub-sections (for better orientability), and in t
 ### Instructions
 
 ## Exercise 1
+
+1. 
+
 
 
    ```r
@@ -56,13 +58,4 @@ This lab is divided into three sub-sections (for better orientability), and in t
     plot(g, edge.width=E(g)$weight)
    ```
 
-
-    >**Note**: If you have not previously created Management Groups, select **Start using management groups**
-
-1. Create a management group with the following settings:
-
-    | Setting | Value |
-    | --- | --- |
-    | Management group ID | **az104-02-mg1** |
-    | Management group display name | **az104-02-mg1** |
 
