@@ -105,5 +105,5 @@ In this task, you will create and configure your survey. There are many differen
 
 ## Moving on to first sub-lab 20-3-B
 
-Please move on to the next [sub-lab 20-3-A](LAB_20-2-A-ImplementResearchPlan_intoQualtrics.md), where you will implement your research plan into a Qualtrics survey.
+Please move on to the next [sub-lab 20-3-B](LAB_20-3-B-DataFromQualtricsToR.md), where you will implement your research plan into a Qualtrics survey.
 
