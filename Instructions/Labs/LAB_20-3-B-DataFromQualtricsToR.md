@@ -59,3 +59,6 @@ This lab is divided into three sub-sections (for better orientability), and in t
    ```
 
 
+## Moving on to sub-lab 20-4-C
+
+Please move on to the next [sub-lab 20-4-C](LAB_20-4-C-ExploratoryAnalysisInR.md), where you will implement your research plan into a Qualtrics survey.

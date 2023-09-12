@@ -1,10 +1,11 @@
 ---
 lab:
-    title: 'Lab 20-3-C: Exploratory Network Data Analysis in R'
+    title: 'Lab 20-4-C: Exploratory Network Data Analysis in R'
     module: 'Network Data Collection and Survey Scales'
 ---
 
-# Lab 20 - M Mallow's RUG teaching lab
+# Lab - Part C - Exploratory Network Data Analysis
+
 
 ## Pre-Lab requirements
 
@@ -21,10 +22,8 @@ You should have connected to [Qualtrics via the RUG-MyUniversity access](https:/
 
 ## What this sub-lab will teach you
 
-We want to teach you a couple of things in this lab
-
-- Exporting the data from Qualtrics
-- Importing the data into R
+- how to visually explore your network data in R and igraph
+- how to use visualisations to preliminary support or reject your hypothesis
 
 <!-- - Doing exploratory network analysis in R
     - processing and exploring the data in a network-specific R-package such as **igraph** -->
@@ -35,9 +34,9 @@ We want to teach you a couple of things in this lab
 
 This lab is divided into three sub-sections (for better orientability), and in the separate sub-modules you will:
 
-+ Task 1: Implement your research plan (and hypothesis into a Qualtrics survey) - Lab 20-2-A
-+ **Task 2: Import the collected data into R - Lab 20-2-B**
-+ Task 3: Carry out exploratory network analysis in R - Lab 20-2-C
++ ~~Task 1: Implement your research plan (and hypothesis into a Qualtrics survey) - Lab 20-2-A~~
++ ~~Task 2: Network Data - Export from Qualtrics and Import into R - Lab 20-3-B~~
++ Task 3: Carry out exploratory network analysis in R - Lab 20-4-C
 
 (NB: preferably you have collected your own data, but in case that was not possible, or too difficult for some reason, we also provide a sample dataset in the following)
 
