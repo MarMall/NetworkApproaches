@@ -6,7 +6,7 @@ layout: home
 
 # Content Directory
 
-Required labs files can be [DOWNLOADED HERE]()
+Required labs files can be ~~downloaded here~~
 
 ## Labs
 
