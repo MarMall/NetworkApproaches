@@ -26,7 +26,7 @@ This lab is divided into three sub-sections (for better orientability), and in t
 
 (NB: preferably you have collected your own data, but in case that was not possible, or too difficult for some reason, we will also provide a sample dataset before the lecture / lab )
 
-## Estimated timing for this lab session: ~ 20 minutes
+## Estimated timing for this lab session: ~ 30 minutes
 
 <!-- 
 ![image](../media/lab02a.png)
@@ -48,11 +48,7 @@ We will be working with with the tidyverse (especially dplyr) in this DataImport
     install.packages("stringr")  
  
    ```
-
-
-
-
-
+Loading important packages into R.
    ```r 
     # otherwise load / import the packages you will need for the data import and cleaning / wrangling in this session
 
@@ -63,11 +59,27 @@ We will be working with with the tidyverse (especially dplyr) in this DataImport
  
    ```
 
+Check what your working directory is, and either put the survey data / network .csv-file in there, or set your working directory to where our .csv file resides on your PC.
+
+```r 
+    # otherwise load / import the packages you will need for the data import and cleaning / wrangling in this session
+
+    getwd() #tell you what your working dir is
+
+    setwd() #lets you set a new working directory
+```
+
+```r 
+# set this to your working directory
+setwd("~/surveyDataImport/waves")
+
+responsesFile <- "iConnSurveyWave3raw.csv" #set this to the filename of your downloaded Qualtrics .csv file 
+
+```
 
 
-## Exercise 1
+## Exercise 2 - Loading the data into R
 
-1. 
 
    ```r
    
