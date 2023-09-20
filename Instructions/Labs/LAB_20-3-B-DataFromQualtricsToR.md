@@ -17,7 +17,6 @@ We want to teach you a couple of things in this lab
     - processing and exploring the data in a network-specific R-package such as **igraph** -->
     
     
-
 ## Sub-Lab's Objective
 
 This lab is divided into three sub-sections (for better orientability), and in the separate sub-modules you will:
@@ -37,20 +36,31 @@ This lab is divided into three sub-sections (for better orientability), and in t
 
 ## Exercise 1 - Getting your R/R-Studio environment ready
 
-   ```r {r setup, include=FALSE}
-   
-    library(igraph)
-    library(ggraph)
+We will be working with with the tidyverse (especially dplyr) in this DataImport and Data Wrangling Sub-Session. These packages need to be installed / loaded in R first.
 
-    relations <- data.frame(from=c("Bob", "Cecil", "Cecil", "David", "David", "Esmeralda"),
-                        to=c("Alice", "Bob", "Alice", "Alice", "Bob", "Alice"),
-                        weight=c(4,5,5,2,1,1))
+   ```r 
+     # if you are pretty sure you did not install any of the below packages to your R / RStudio environment before, then please run the install-commands
+    # otherwise just go to the next code block
 
-    # Load (DIRECTED) graph from data frame 
-    g <- graph.data.frame(relations, directed=TRUE)
+    install.packages("tidyverse")
+    install.packages("dplyr")
+    install.packages("tidyselect")
+    install.packages("stringr")  
+ 
+   ```
 
-    # Plot graph
-    plot(g, edge.width=E(g)$weight)
+
+
+
+
+   ```r 
+    # otherwise load / import the packages you will need for the data import and cleaning / wrangling in this session
+
+    library (tidyverse)
+    library (tidyselect)
+    library (stringr)
+    library (dplyr)
+ 
    ```
 
 
