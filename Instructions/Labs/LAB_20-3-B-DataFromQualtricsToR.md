@@ -4,7 +4,7 @@ lab:
     module: 'Network Data Collection and Survey Scales'
 ---
 
-# Lab - Part B - Data Transfer from Qualtrics to R
+# Marcel's Lab - Part B - Data Transfer from Qualtrics to R
 
 ## What this sub-lab will teach you
 
@@ -24,9 +24,8 @@ This lab is divided into three sub-sections (for better orientability), and in t
 
 + ~~Task 1: Implement your research plan (and hypothesis into a Qualtrics survey) - Lab 20-2-A~~
 + **Task 2: Network Data - Export from Qualtrics and Import into R - Lab 20-3-B**
-+ ~~Task 3: Carry out exploratory network analysis in R - Lab 20-4-C~~
 
-(NB: preferably you have collected your own data, but in case that was not possible, or too difficult for some reason, we also provide a sample dataset in the following)
+(NB: preferably you have collected your own data, but in case that was not possible, or too difficult for some reason, we will also provide a sample dataset before the lecture / lab )
 
 ## Estimated timing for this lab session: ~ 20 minutes
 
@@ -36,9 +35,46 @@ This lab is divided into three sub-sections (for better orientability), and in t
 
 ### Instructions
 
+## Exercise 1 - Getting your R/R-Studio environment ready
+
+   ```r {r setup, include=FALSE}
+   
+    library(igraph)
+    library(ggraph)
+
+    relations <- data.frame(from=c("Bob", "Cecil", "Cecil", "David", "David", "Esmeralda"),
+                        to=c("Alice", "Bob", "Alice", "Alice", "Bob", "Alice"),
+                        weight=c(4,5,5,2,1,1))
+
+    # Load (DIRECTED) graph from data frame 
+    g <- graph.data.frame(relations, directed=TRUE)
+
+    # Plot graph
+    plot(g, edge.width=E(g)$weight)
+   ```
+
+
+
 ## Exercise 1
 
 1. 
+
+   ```r
+   
+    library(igraph)
+    library(ggraph)
+
+    relations <- data.frame(from=c("Bob", "Cecil", "Cecil", "David", "David", "Esmeralda"),
+                        to=c("Alice", "Bob", "Alice", "Alice", "Bob", "Alice"),
+                        weight=c(4,5,5,2,1,1))
+
+    # Load (DIRECTED) graph from data frame 
+    g <- graph.data.frame(relations, directed=TRUE)
+
+    # Plot graph
+    plot(g, edge.width=E(g)$weight)
+   ```
+
 
 
 
@@ -61,4 +97,4 @@ This lab is divided into three sub-sections (for better orientability), and in t
 
 ## Moving on to sub-lab 20-4-C
 
-Please move on to the next [sub-lab 20-4-C](LAB_20-4-C-ExploratoryAnalysisInR.md), where you will implement your research plan into a Qualtrics survey.
+Please move on to the next [sub-lab 20-4-C](LAB_20-4-C-ExploratoryAnalysisInR.md), where you will do a first exploratory analysis of your network data in R and the igraph package.
