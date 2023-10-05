@@ -59,7 +59,7 @@ In this task, you will create and configure your survey. There are many differen
 
 1. Sign in to the [**RUG - Qualtrics account**](https://rug.eu.qualtrics.com/).
 
-1. Then go to [Create a project](https://rug.eu.qualtrics.com/app/catalog/projects) or [Create your first survey] (https://rug.eu.qualtrics.com/app/catalog/projects/results?search=survey) **and** then create a survey **from scratch** (as shown in the following screenshot).
+1. Then go to [Create a project](https://rug.eu.qualtrics.com/app/catalog/projects) or [Create your first survey](https://rug.eu.qualtrics.com/app/catalog/projects/results?search=survey) **and** then create a survey **from scratch** (as shown in the following screenshot).
 
     ![image](../media/lab20-2a-01-fromScratch.png)
 
