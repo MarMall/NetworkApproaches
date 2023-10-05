@@ -11,33 +11,30 @@ lab:
 You need to have R (preferably a recent version) installed on a Linux, Windows or MacOS PC.
 You should have connected to [Qualtrics via the RUG-MyUniversity access](https://rug.eu.qualtrics.com/).
 
+It would be beneficial if you have completed the [**Week6 Preparation - PART1**](https://brightspace.rug.nl/content/enforced/251026-GERMARS.2023-2024.1/Week%206.%20Preparation.html?ou=251026&d2l_body_type=3)
+
 ## What this sub-lab will teach you
 
 - How to create a quick network-roster type survey for network-specific data collection...
     - capturing **network-specific relational data** between individuals of a defined population (within boundary)
     - adding **non-network specific data** to the network data collection
         - demographic information
-        - depending on research ideas specifically designed question scales
+        - depending on research ideas specifically designed question scales (like our AttitudeTowardsCoolKids scale)
 
 - Kick-Off Data Collection
     - How to distribute the survey to your population of interest
     - How to monitor the data collection process
     
 
-## 
-
-
-
 ## Sub-Lab's Objective
 
-This lab is divided into three sub-sections (for better orientability), and in the separate sub-modules you will:
+This module is mainly about:
 
 + **Task 1: Implement your research plan (and hypothesis into a Qualtrics survey) - Lab 20-2-A**
 
+This exercise will be particularly interesting for those of you who made notes during the first exercise (posted to Brightspace) and already thought about the suitability and feasibility of using a network approach for their research. 
 
 (NB: preferably you have collected your own data, but in case that was not possible, or too difficult for some reason, we will also provide a sample dataset in the following)
-
-## Estimated timing for this lab session: ~ 45 minutes
 
 <!-- 
 ![image](../media/lab02a.png)
@@ -47,18 +44,18 @@ This lab is divided into three sub-sections (for better orientability), and in t
 
 ## Exercise 1 - (Conceptual) Survey Framework
 
-- Make a nice layout of your data bits and pieces.
-    - i.e. the network relations you want to capture,
-    - the directionality of those relations (which of the below shown network relations are directed and which are undirected?)
-    - the non-network information you want to capture
+- Make a nice layout of your data bits and pieces (see example from [our preClass-Survey](https://rug.eu.qualtrics.com/jfe/form/SV_0wiK9xCaQNBOg5M) below)
+    - i.e. the **network relations** you want to capture,
+    - the directionality of those relations (which of the below shown network relations are **directed** and which are **undirected**?)
+    - the **non-network information** you want to capture (and why you think these "attributes" are important for explaining network outcomes)
 
  
-[image](../media/DataBitsAndPieces.png)
+![image](../media/dataBitsAndPieces.png)
 
 
 ## Task 1: Go ahead in Qualtrics
 
-In this task, you will create and configure your survey. There are many different ways of collection network type data (see slides), but one of the most common is the **roster type survey**. In this type of survey, you first define the population of interest, and then you ask respondents to indicate their relations to other members of the population.
+In this task, you will create and configure your survey. There are many different ways of collecting network type data (see our ), but one of the most common is the **roster type survey**. In this type of survey, you first define the population of interest, and then you ask respondents to indicate their relations to other members of the population.
 
 1. Sign in to the [**RUG - Qualtrics account**](https://rug.eu.qualtrics.com/).
 
