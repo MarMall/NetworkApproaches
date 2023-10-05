@@ -59,7 +59,7 @@ In this task, you will create and configure your survey. There are many differen
 
 1. Sign in to the [**RUG - Qualtrics account**](https://rug.eu.qualtrics.com/).
 
-1. Then go to [Create a project](https://rug.eu.qualtrics.com/app/catalog/projects) or [Create your first survey](https://rug.eu.qualtrics.com/app/catalog/projects/results?search=survey) **and** then create a survey **from scratch** (as shown in the following screenshot).
+1. Then go to [Create your first survey](https://rug.eu.qualtrics.com/app/catalog/projects/results?search=survey) **and** create a survey **from scratch** (as shown in the following screenshot).
 
     ![image](../media/lab20-2a-01-fromScratch.png)
 
@@ -70,17 +70,16 @@ In this task, you will create and configure your survey. There are many differen
         
         1. either, you can build on a template that we have created for you (which is the recommended way forward for this lab)
         1. or, you can create your very own little network survey from scratch (based on examples you find in the SNA literature and/or our [recommended readings](https://brightspace.rug.nl/content/enforced/251026-GERMARS.2023-2024.1/Week%206.%20Content%20and%20materials.html?ou=251026&d2l_body_type=3))
-
-        You see both options shown in the following screenshot. Please choose accordingly.
+         
         
-        ![image](../media/lab20-2a-02-chooseTemplateOrNot.png)
-
         >**Note**: If you have not previously worked with Qualtrics or other online survey tools, you might want to look at the following link on [Survey component basics](https://www.qualtrics.com/support/survey-platform/survey-module/survey-module-overview/)
 
 
 ## Task 3: Importing the .qsf file for survey import
 
 1. The recommended way forward is to use our pre-built **network roster-type** questions, which you can load via this [.qsf file](https://unishare.nl/index.php/s/JdwMseKp6oTEbWJ) that we have made available on UniShare (link: https://unishare.nl/index.php/s/JdwMseKp6oTEbWJ). In case you want to build your very own network survey without any help, please skip this task.
+
+![image](../media/surveyProjectVia_qsf-file.png)
 
 >**Note**: please look up the official Qualtrics documentation for more help on [Importing and Exporting surveys] (https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/#ExportingaSurveyasaQSF)
 
