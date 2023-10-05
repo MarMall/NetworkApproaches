@@ -30,14 +30,14 @@ We want to teach you a couple of things in this lab
 ## Where this module fits into the overall course
 
 - modules so far have taught you...
-    - how networks can play a role in a diversity of mixed-methods research approaches in the form of...
+    - how networks can play a role in a diversity of mixed-methods research approaches in the form of, for example, ...
         - textual data (documents' relations and narratives as networks)
-        - economic data (business ties and kinship ties)
+        - stakeholder interaction in environmental governance and co-management
 
 - this module aims to give you an idea of...
     - how to implement your research ideas into a network-oriented data collection 
-    - how to connect your data to network analysis workflows in R
-    - how via network data visualisation you can show that more research into specific patterns is warranted
+    - how to connect your data to simple network analysis workflows in R
+    - how via network data visualisation you can carry out first exploratory analysis of your data
     
 
 ## Objectives
@@ -46,12 +46,9 @@ This lab is divided into three sub-sections (for better orientability), and in t
 
 + Task 1: Implement your research plan (and hypothesis into a Qualtrics survey) - Lab 20-2-A
 + Task 2: Import the collected data into R - Lab 20-2-B
-+ Task 3: Carry out exploratory network analysis in R - Lab 20-2-C
++ Task 3: Develop first ideas for exploratory network analysis in R - Lab 20-2-C
 
-(NB: Tasks 1 and 2 should be carried out as preparatory work before the lab session as far as possible, and task 3 will be carried out during the lab session)
-
-## Estimated timing for all three lab session: ~120 minutes
-
+(NB: Tasks 1 and 2 should be carried out as preparatory work before the lab session as far as possible, while task 3 will be carried out during the lab session if the class wishes so)
 
 ## Moving on to first sub-lab 20-2-A
 

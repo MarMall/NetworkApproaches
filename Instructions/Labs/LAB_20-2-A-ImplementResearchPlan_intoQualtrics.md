@@ -4,7 +4,7 @@ lab:
     module: 'Network Data Collection and Survey Scales'
 ---
 
-# Lab - Part A - Network Data Collection via Surveys
+# Marcel's Lab - Part B - Network Data Collection via Surveys
 
 ## Lab requirements
 
@@ -14,7 +14,7 @@ You should have connected to [Qualtrics via the RUG-MyUniversity access](https:/
 ## What this sub-lab will teach you
 
 - How to create a quick network-roster type survey for network-specific data collection...
-    - capturing **network-specific relational data** between individuals of a defined population (within boundary
+    - capturing **network-specific relational data** between individuals of a defined population (within boundary)
     - adding **non-network specific data** to the network data collection
         - demographic information
         - depending on research ideas specifically designed question scales
@@ -24,15 +24,18 @@ You should have connected to [Qualtrics via the RUG-MyUniversity access](https:/
     - How to monitor the data collection process
     
 
+## 
+
+
+
 ## Sub-Lab's Objective
 
 This lab is divided into three sub-sections (for better orientability), and in the separate sub-modules you will:
 
 + **Task 1: Implement your research plan (and hypothesis into a Qualtrics survey) - Lab 20-2-A**
-+ ~~Task 2: Network Data - Export from Qualtrics and Import into R - Lab 20-3-B~~
-+ ~~Task 3: Carry out exploratory network analysis in R - Lab 20-4-C~~
 
-(NB: preferably you have collected your own data, but in case that was not possible, or too difficult for some reason, we also provide a sample dataset in the following)
+
+(NB: preferably you have collected your own data, but in case that was not possible, or too difficult for some reason, we will also provide a sample dataset in the following)
 
 ## Estimated timing for this lab session: ~ 45 minutes
 
@@ -46,12 +49,11 @@ This lab is divided into three sub-sections (for better orientability), and in t
 
 - Make a nice layout of your data bits and pieces.
     - i.e. the network relations you want to capture,
-    - the directionality of those relations
+    - the directionality of those relations (which of the below shown network relations are directed and which are undirected?)
     - the non-network information you want to capture
 
-<!-- 
-![image](../media/lab02a.png)
- -->
+ 
+[image](../media/DataBitsAndPieces.png)
 
 
 ## Task 1: Go ahead in Qualtrics
