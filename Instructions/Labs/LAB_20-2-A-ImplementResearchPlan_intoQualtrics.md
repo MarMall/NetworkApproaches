@@ -42,7 +42,7 @@ This exercise will be particularly interesting for those of you who made notes d
 
 ### Instructions
 
-## Exercise 1 - (Conceptual) Survey Framework
+## Task 1 - (Conceptual) Survey Framework
 
 - Make a nice layout of your data bits and pieces (see example from [our preClass-Survey](https://rug.eu.qualtrics.com/jfe/form/SV_0wiK9xCaQNBOg5M) below)
     - i.e. the **network relations** you want to capture,
@@ -53,7 +53,7 @@ This exercise will be particularly interesting for those of you who made notes d
 ![image](../media/dataBitsAndPieces.png)
 
 
-## Task 1: Go ahead in Qualtrics
+## Task 2: Go ahead in Qualtrics
 
 In this task, you will create and configure your survey. There are many different ways of collecting network type data (see our ), but one of the most common is the **roster type survey**. In this type of survey, you first define the population of interest, and then you ask respondents to indicate their relations to other members of the population.
 
@@ -69,7 +69,7 @@ In this task, you will create and configure your survey. There are many differen
 
         
         1. either, you can build on a template that we have created for you (which is the recommended way forward for this lab)
-        1. or, you can create your very own little network survey from scratch (based on examples you find in the SNA literature)
+        1. or, you can create your very own little network survey from scratch (based on examples you find in the SNA literature and/or our [recommended readings](https://brightspace.rug.nl/content/enforced/251026-GERMARS.2023-2024.1/Week%206.%20Content%20and%20materials.html?ou=251026&d2l_body_type=3))
 
         You see both options shown in the following screenshot. Please choose accordingly.
         
@@ -78,31 +78,33 @@ In this task, you will create and configure your survey. There are many differen
         >**Note**: If you have not previously worked with Qualtrics or other online survey tools, you might want to look at the following link on [Survey component basics](https://www.qualtrics.com/support/survey-platform/survey-module/survey-module-overview/)
 
 
-## Task 2: Importing the .qsf file for survey import
+## Task 3: Importing the .qsf file for survey import
 
 1. The recommended way forward is to use our pre-built **network roster-type** questions, which you can load via this [.qsf file](https://unishare.nl/index.php/s/JdwMseKp6oTEbWJ) that we have made available on UniShare (link: https://unishare.nl/index.php/s/JdwMseKp6oTEbWJ). In case you want to build your very own network survey without any help, please skip this task.
 
 >**Note**: please look up the official Qualtrics documentation for more help on [Importing and Exporting surveys] (https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/#ExportingaSurveyasaQSF)
 
 
-## Task 3: Modify the survey questions to match your research ideas
+## Task 4: Modify the survey questions to match your research ideas
 
 1. modify the survey items, as well as structure and logic to match your **(Conceptual) Survey Framework** (see above)
 1. test your survey via the "Preview" button on the top right
 
-## Task 4: Test your online-survey
+## Task 5: Test your online-survey
 
 1. (pre-)test your survey via the "Preview" button on the top right
 
-## Task 5: Collect your data
+## Task 6: Collect your data
 
-1. when you are fairly certain that the survey is running flawless and collects the your network data as desired, click on the "Publish" button to go from testing to data collection mode.
+1. when you are fairly certain that the survey is running flawlessly and collects the your network data as desired, click on the "Publish" button to go from testing to data collection mode.
 
-1. then you distribute your survey to potential respondents (there are many possible ways to do this - e.g. via a survey link or QR-code (recommended here to get quick responses from your classmates)
+1. then you distribute your survey to potential respondents [there are many possible ways to do this - e.g. via a survey link or QR-code ](recommended here to get quick responses from your classmates)
 
 >**Note**: again, the official Qualtrics documentation is your best friend here [Ways of Distributing your survey] (https://www.qualtrics.com/support/survey-platform/distributions-module/distributions-overview/)
 
+The next sub-lab will show you how to import the collected data into R.
+
 ## Moving on to first sub-lab 20-3-B
 
-Please move on to the next [sub-lab 20-3-B](LAB_20-3-B-DataFromQualtricsToR.md), where you will implement your research plan into a Qualtrics survey.
+Please move on to the next [sub-lab 20-3-B](LAB_20-3-B-DataFromQualtricsToR.md).
 
