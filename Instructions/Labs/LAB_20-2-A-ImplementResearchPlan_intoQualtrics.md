@@ -77,7 +77,7 @@ In this task, you will create and configure your survey. There are many differen
 
 ## Task 3: Importing the .qsf file for survey import
 
-1. The recommended way forward is to use our pre-built **network roster-type** questions, which you can load via this [.qsf file](https://unishare.nl/index.php/s/JdwMseKp6oTEbWJ) that we have made available on UniShare (link: https://unishare.nl/index.php/s/JdwMseKp6oTEbWJ). In case you want to build your very own network survey without any help, please skip this task.
+1. The recommended way forward is to use our pre-built **network roster-type** questions, which you can load via this [.qsf file](https://unishare.nl/index.php/s/7T72aAzobAezpCZ) that we have made available on [UniShare](https://unishare.nl/index.php/s/7T72aAzobAezpCZ). In case you want to build your very own network survey without any help, please skip this task.
 
 ![image](../media/surveyProjectVia_qsf-file.png)
 
