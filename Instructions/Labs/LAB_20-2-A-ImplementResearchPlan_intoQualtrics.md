@@ -1,10 +1,10 @@
 ---
 lab:
-    title: 'Lab 20-2-A: Implementing Research Idea in Qualtrics'
-    module: 'Network Data Collection and Survey Scales'
+    title: 'Lab 20-2-A: Implementing Research Ideas in Qualtrics'
+    module: 'Network Data Collection via Web Surveys'
 ---
 
-# Marcel's Lab - Part B - Network Data Collection via Surveys
+# Marcel's Lab - Part A - Implementing Research Ideas in Qualtrics
 
 ## Lab requirements
 

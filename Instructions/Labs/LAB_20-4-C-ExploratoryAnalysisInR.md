@@ -1,10 +1,10 @@
 ---
 lab:
     title: 'Lab 20-4-C: Exploratory Network Data Analysis in R'
-    module: 'Network Data Collection and Survey Scales'
+    module: 'Network Data Collection via Web Surveys'
 ---
 
-# Lab - Part C - Exploratory Network Data Analysis
+# Marcel's Lab - Part C - Exploratory Network Data Analysis in R with igraph
 
 
 ## Pre-Lab requirements
