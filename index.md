@@ -6,6 +6,10 @@ layout: home
 
 # RUG Advanced Research Skills 2023 - Week 6 - Session Marcel
 
+<!-- INSERT MULTIPLE RELATIONs / mULTIPLEX NETWORK HERE 
+![image](../media/lab02a.png)
+ -->
+
 Please work through the following lab sessions and try to replicate them as far as possible before the lecture on Oct 10th.
 
 ## Lab Sessions to complete as far as po
