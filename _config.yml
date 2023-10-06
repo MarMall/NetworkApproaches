@@ -5,6 +5,7 @@ exclude:
   - Instructions/Demos/
   - Instructions/oldLabs/
   - Instructions/Labs/LAB_20-4-C-ExploratoryAnalysisInR.md
+  - Instructions/Labs/LAB_20-3-B-DataFromQualtricsToR.md
   
 header_pages:
   - index.html
