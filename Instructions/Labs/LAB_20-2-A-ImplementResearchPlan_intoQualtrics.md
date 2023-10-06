@@ -81,7 +81,7 @@ In this task, you will create and configure your survey. There are many differen
 
 ![image](../media/surveyProjectVia_qsf-file.png)
 
->**Note**: please look up the official Qualtrics documentation for more help on [Importing and Exporting surveys] (https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/#ExportingaSurveyasaQSF)
+>**Note**: please look up the official Qualtrics documentation for more help on [Importing and Exporting surveys](https://www.qualtrics.com/support/survey-platform/survey-module/survey-tools/import-and-export-surveys/#ExportingaSurveyasaQSF)
 
 
 ## Task 4: Modify the survey questions to match your research ideas
@@ -97,9 +97,9 @@ In this task, you will create and configure your survey. There are many differen
 
 1. when you are fairly certain that the survey is running flawlessly and collects the your network data as desired, click on the "Publish" button to go from testing to data collection mode.
 
-1. then you distribute your survey to potential respondents [there are many possible ways to do this - e.g. via a survey link or QR-code ](recommended here to get quick responses from your classmates)
+1. then you distribute your survey to potential respondents there are many possible ways to do this - e.g. via a survey link or QR-code (both are a good way to get quick responses from your classmates)
 
->**Note**: again, the official Qualtrics documentation is your best friend here [Ways of Distributing your survey] (https://www.qualtrics.com/support/survey-platform/distributions-module/distributions-overview/)
+>**Note**: again, the official Qualtrics documentation is your best friend here [Ways of Distributing your survey](https://www.qualtrics.com/support/survey-platform/distributions-module/distributions-overview/)
 
 The next sub-lab will show you how to import the collected data into R.
 
