@@ -12,7 +12,7 @@ layout: home
 
 Please work through the following lab sessions and try to replicate them as far as possible before the lecture on Oct 10th.
 
-## Lab Sessions to complete as far as po
+## Lab Sessions to complete as far as possible before Tuesday's lecture
 
 {% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
 | Module | Sub-Lab |
