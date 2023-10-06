@@ -110,9 +110,13 @@ To export the collected survey data in an R-readable format...
 2. click on the **Export & Import** button
 3. select **Export Data**
 4. and then in the **Download a data table** menu select *csv* (comma separated values) as the file format
-5. before you hit the download button, make sure to select **Use numeric values** instead of choice text
+5. before you hit the download button, make sure to select **Use numeric values** instead of choice text (see screeshots below)
 6. then download the .csv-file
 7. and save it into a folder whose path you can easily navigate to later
+
+![image](../media/surveyExport1.png)
+
+![image](../media/surveyExport2.png)
 
 ## Task 8: Examine the .csv-file and the type of data generated
 
@@ -131,8 +135,8 @@ Reach out to me if you have any questions or problems with the above tasks.
 
 Best wishes,
 Marcel
-<!-- ## Moving on to first sub-lab 20-3-B
-
+<!-- 
+## Moving on to first sub-lab 20-3-B
 Please move on to the next [sub-lab 20-3-B](LAB_20-3-B-DataFromQualtricsToR.md).
 -->
 
