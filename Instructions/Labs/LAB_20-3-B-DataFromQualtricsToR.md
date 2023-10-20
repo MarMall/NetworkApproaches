@@ -33,13 +33,13 @@ This lab is divided into three sub-sections (for better orientability), and in t
  -->
 
 
-
-
 ### Instructions
 
 ## Exercise 1 - Getting your R/R-Studio environment ready
 
 We will be working with with the tidyverse (especially dplyr) in this DataImport and Data Wrangling Sub-Session. These packages need to be installed / loaded in R first.
+
+Should you prefer working directly in R with the RMarkdown file, please access the [file here](https://raw.githubusercontent.com/MarMall/NetworkApproaches/main/Instructions/Labs/data/1_DataImportQualtrics2R.rmd)
 
    ```r 
      # if you are pretty sure you did not install any of the below packages to your R / RStudio environment before, then please run the install-commands
