@@ -78,20 +78,25 @@ setwd("~/yourRProjectName/yourWorkingDir")
 
 responsesFile <- "xyzxWave3raw.csv" #set this to the filename of your downloaded Qualtrics .csv file 
 
-```
+#alternatively, you can use our class dataset (which I uploaded here to GitHub)
+responsesFile <- "https://raw.github.com/MarMall/NetworkApproaches/main/Instructions/Labs/data/sampleNetworkSurvey.csv"
 
+```
 
 ## Exercise 2 - Loading the data into R
 
-
 ```r
 
-# #remove row with question
+# #remove row(s) with question
 # responses <- responses [-c (1), ] 
 # head(responses)
 
-# better way to avoid row with question making everything into character variables
-# so we don't have to change them all back again later
+#better way to avoid row with question recoding everything into character variables
+#so we don't have to change them all back again later
+
+#setwd("~/surveyDataImport/waves")
+
+# readr::
 
 responses <- read.csv (responsesFile, header = TRUE, nrows = 1)
 variables <- colnames (responses)
@@ -99,49 +104,123 @@ variables <- colnames (responses)
 #variables
 #head(responses)
 
-variables[1] <- "ID"
+# variables[1] <- "ID"
 responses <- read.csv (responsesFile, header = FALSE, skip = 2)
 colnames (responses) <- variables
 
-#responses
+## Here you have your dataframe of all the responses
+# have a look inside
+responses 
 
-#rm(QID149)
 ```
 
- ## Exercise 3 - Cleaning the data
-   ```r
+## Exercise 3 - First network relation - Friendship
    
-    library(igraph)
-    library(ggraph)
+```r
+   ## Now lets recode the first question results into network format
 
-    relations <- data.frame(from=c("Bob", "Cecil", "Cecil", "David", "David", "Esmeralda"),
-                        to=c("Alice", "Bob", "Alice", "Alice", "Bob", "Alice"),
-                        weight=c(4,5,5,2,1,1))
+#responses to first question -- selection by question number
 
-    # Load (DIRECTED) graph from data frame 
-    g <- graph.data.frame(relations, directed=TRUE)
+## exclude 99 as this is "Nobody"
+QID149 <- responses %>%
+  select (c (
+            #"ID",
+             #"recipientLastName",
+             # "QID169_1",
+             vars_select (names (responses),
+                          starts_with ("QID149", ignore.case = TRUE),
+                          -starts_with ("QID149_99", ignore.case = TRUE) #filter out NOBODY
+                          )))
 
-    # Plot graph
-    plot(g, edge.width=E(g)$weight)
-   ```
 
+QID149 <- QID149[1:14] #we only have 14 responses, so we work only with those.
+#QID149
 
-## Exercise 3 - Cleaning the data
-   ```r
+```
+
+## Exercise 4 - Second network relation - Influence
    
-    library(igraph)
-    library(ggraph)
+```r
+## exclude 99 as this is "Nobody"
+QID128 <- responses %>%
+  select (c (
+            #"ID",
+             #"recipientLastName",
+             # "QID169_1",
+             vars_select (names (responses),
+                          starts_with ("QID128", ignore.case = TRUE),
+                          -starts_with ("QID128_99", ignore.case = TRUE)
+                          )))
 
-    relations <- data.frame(from=c("Bob", "Cecil", "Cecil", "David", "David", "Esmeralda"),
-                        to=c("Alice", "Bob", "Alice", "Alice", "Bob", "Alice"),
-                        weight=c(4,5,5,2,1,1))
 
-    # Load (DIRECTED) graph from data frame 
-    g <- graph.data.frame(relations, directed=TRUE)
+# QID128 <- QID128[2:7]
 
-    # Plot graph
-    plot(g, edge.width=E(g)$weight)
-   ```
+QID128 <- QID128[1:14] # again, we only had 14 responses to the survey
+#QID128
+
+
+QID128 <- QID128 %>%
+  # Recoding NAs to 0  
+  mutate (across (vars_select (names (QID128),
+                               contains ("QID128", ignore.case = TRUE)),
+          ~ replace (., is.na (.), 0))) %>%
+  ## AND making the data binary
+    mutate (across (vars_select (names (QID128),
+                               contains ("QID128", ignore.case = TRUE)),
+          ~ replace (., . != 0, 1))) #this ensures the data is binary
+
+
+
+dim(QID128) # nice, this is squared 14x14
+
+#QID128
+
+```
+
+## Exercise 5 - Turning the data into a matrix
+
+```r turningIntoMatrix
+# 
+# QID149 # friendship relation
+# QID128 # influence
+
+QID149_mat <-  as.matrix(QID149)
+
+#QID149_mat
+is.matrix(QID149_mat)
+
+# checking the dimensions of the matrix
+#dim(QID149_mat) # should be symmetric
+
+##same for the influence relation
+
+QID128_mat <-  as.matrix(QID128)
+
+# # checking the dimensions of the matrix
+# dim(QID128) # should be symmetric
+
+#QID128_mat
+is.matrix(QID128_mat)
+
+```
+
+## Saving your network relation matrices in R
+
+```r savingNetworkMatrices
+
+# save the matrices as .RData files
+
+save (QID149_mat,
+        file = paste0 ("Friendship_q149"  ,".Rdata"))
+
+save (QID128_mat,
+        file = paste0 ("Influence_q128"  ,".Rdata"))
+
+```
+
+## Achievements
+
+Great, you bought your first network relations into (adjacency) matrix format, so that working with them in several network analysis packages in R will be much easier.
 
 
 ## Moving on to sub-lab 20-4-C
