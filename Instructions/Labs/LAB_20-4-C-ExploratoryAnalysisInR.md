@@ -36,7 +36,7 @@ This lab is divided into three sub-sections (for better orientability), and in t
 
 + ~~Task 1: Implement your research plan (and hypothesis into a Qualtrics survey) - Lab 20-2-A~~
 + ~~Task 2: Network Data - Export from Qualtrics and Import into R - Lab 20-3-B~~
-+ Task 3: Carry out exploratory network analysis in R - Lab 20-4-C
++ **Task 3: Carry out exploratory network analysis in R - Lab 20-4-C**
 
 (NB: preferably you have collected your own data, but in case that was not possible, or too difficult for some reason, we also provide a sample dataset in the following)
 

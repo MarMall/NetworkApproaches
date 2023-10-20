@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 20-1: Lab Pre-Work and Lab Overview'
-    module: 'Network Data Collection and Survey Scales'
+    module: 'Network Data Collection via Web Surveys'
 ---
 
 # Lab - Part PREP - Network Data Collection via Surveys

@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Lab 20-3-B: Data Transfer from Qualtrics to R'
-    module: 'Network Data Collection and Survey Scales'
+    module: 'Network Data Collection via Web Surveys'
 ---
 
 # Marcel's Lab - Part B - Data Transfer from Qualtrics to R
@@ -12,6 +12,8 @@ We want to teach you a couple of things in this lab
 
 - Exporting network data from Qualtrics
 - Importing the data into R
+- Clearning the data in R
+- Getting the data into network format
 
 <!-- - Doing exploratory network analysis in R
     - processing and exploring the data in a network-specific R-package such as **igraph** -->
@@ -26,11 +28,12 @@ This lab is divided into three sub-sections (for better orientability), and in t
 
 (NB: preferably you have collected your own data, but in case that was not possible, or too difficult for some reason, we will also provide a sample dataset before the lecture / lab )
 
-## Estimated timing for this lab session: ~ 30 minutes
-
 <!-- 
 ![image](../media/lab02a.png)
  -->
+
+
+
 
 ### Instructions
 
@@ -71,9 +74,9 @@ Check what your working directory is, and either put the survey data / network .
 
 ```r 
 # set this to your working directory
-setwd("~/surveyDataImport/waves")
+setwd("~/yourRProjectName/yourWorkingDir")
 
-responsesFile <- "iConnSurveyWave3raw.csv" #set this to the filename of your downloaded Qualtrics .csv file 
+responsesFile <- "xyzxWave3raw.csv" #set this to the filename of your downloaded Qualtrics .csv file 
 
 ```
 
@@ -81,6 +84,31 @@ responsesFile <- "iConnSurveyWave3raw.csv" #set this to the filename of your dow
 ## Exercise 2 - Loading the data into R
 
 
+```r
+
+# #remove row with question
+# responses <- responses [-c (1), ] 
+# head(responses)
+
+# better way to avoid row with question making everything into character variables
+# so we don't have to change them all back again later
+
+responses <- read.csv (responsesFile, header = TRUE, nrows = 1)
+variables <- colnames (responses)
+
+#variables
+#head(responses)
+
+variables[1] <- "ID"
+responses <- read.csv (responsesFile, header = FALSE, skip = 2)
+colnames (responses) <- variables
+
+#responses
+
+#rm(QID149)
+```
+
+ ## Exercise 3 - Cleaning the data
    ```r
    
     library(igraph)
@@ -98,8 +126,7 @@ responsesFile <- "iConnSurveyWave3raw.csv" #set this to the filename of your dow
    ```
 
 
-
-
+## Exercise 3 - Cleaning the data
    ```r
    
     library(igraph)
