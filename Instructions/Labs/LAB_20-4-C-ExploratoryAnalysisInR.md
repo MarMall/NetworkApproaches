@@ -7,23 +7,20 @@ lab:
 # Marcel's Lab - Part C - Exploratory Network Data Analysis in R with igraph
 
 
-## Pre-Lab requirements
-
-You need to have R (preferably a recent version) installed on a Linux, Windows or MacOS PC.
-You should have connected to [Qualtrics via the RUG-MyUniversity access](https://rug.eu.qualtrics.com/).
 
    ```r
     # Check that you have iplot installed in your R
 
     library(igraph)
     
+    #otherwise, please install first via install.packages("igraph")
    ```
 
 
 ## What this sub-lab will teach you
 
 - how to visually explore your network data in R and igraph
-- how to use visualisations to preliminary support or reject your hypothesis
+
 
 <!-- - Doing exploratory network analysis in R
     - processing and exploring the data in a network-specific R-package such as **igraph** -->
@@ -39,30 +36,103 @@ This lab is divided into three sub-sections (for better orientability), and in t
 + **Task 3: Carry out exploratory network analysis in R - Lab 20-4-C**
 
 
-## Estimated timing for this lab session: ~ 20 minutes
-
-## Architecture diagram
-<!-- 
-![image](../media/lab02a.png)
- -->
-
 ### Instructions
 
 ## Exercise 1
 
+Let's load our two network relations from before into R and see what we can do with them.
+
+   ```r
+   library(igraph) # load the igraph package for later 
+
+#loading our matrices
+load (paste0("~/NetworkSurvey/", "Friendship_q149", ".Rdata"))
+load (paste0("~/NetworkSurvey/", "Influence_q128", ".Rdata"))
+    
+   ```
+
+
+## Exercise 2
+
+
+```r
+   friendship_network <- graph_from_adjacency_matrix(QID149_mat)
+influence_network <- graph_from_adjacency_matrix(QID128_mat)
+
+
+# Comparing network metrics such as density
+igraph::graph.density(friendship_network)
+igraph::graph.density(influence_network)
+
+## Listing all available shapes 
+# shapes()
+
+V(friendship_network)$vertex.shape <- "square"
+# V(friendship_network)$name <- c("bli", "bla", "blubbi", "shrubby", "puppy", "muppy")
+
+
+V(friendship_network)$name <- responses$QID169_1
+V(influence_network)$name <- responses$QID169_1
+
+
+plot(friendship_network) # wow, this is a mess!
+
+# better without vertex labels?
+plot(friendship_network
+     ,vertex.size = 15
+     ,vertex.color = "lightblue"
+     ,vertex.label=NA
+     )
+
+#Interesting to see our friendship network in text form
+E(friendship_network)
+
+
+#Edge lists are, apart from adjacency matrices a very common way of building networks
+friendship_EL <- as_edgelist(friendship_network)
+influence_EL <- as_edgelist(influence_network)
+
+```
+
+## Exercise 3
+
+How can we show more than one type of tie in a network without overlap?
 
    ```r
    
-    library(igraph)
-    library(ggraph)
+    multiplexNetwork <- graph_from_edgelist(friendship_EL)
 
-    relations <- data.frame(from=c("Bob", "Cecil", "Cecil", "David", "David", "Esmeralda"),
-                        to=c("Alice", "Bob", "Alice", "Alice", "Bob", "Alice"),
-                        weight=c(4,5,5,2,1,1))
+E(multiplexNetwork)$type <- "friendship"
 
-    # Load (DIRECTED) graph from data frame 
-    g <- graph.data.frame(relations, directed=TRUE)
+E(multiplexNetwork)$type
+# multiplexNetwork
 
-    # Plot graph
-    plot(g, edge.width=E(g)$weight)
+multiplexNetwork_V2 <- add.edges(multiplexNetwork, edges = influence_EL)
+
+E(multiplexNetwork_V2)$type[38:56] <- "influence"
+E(multiplexNetwork_V2)$type
+
+
+E(multiplexNetwork_V2)$width <- 2
+plot(multiplexNetwork_V2, edge.color=c("dark red", "slategrey")[(E(multiplexNetwork_V2)$type=="friendship")+1],
+      vertex.color="gray40", layout=layout_in_circle, edge.curved=.3)
+
    ```
+
+
+## Exercise 4
+
+Self-loops are a common problem in network data. How can we get rid of them? In our case, it does not make sense to be a friend of oneself, or to influence oneself.
+
+
+```r	
+
+#getting rid of the self-loops
+
+multiplexNetwork_V2 <- igraph::simplify(multiplexNetwork_V2, remove.loops = T, remove.multiple = F)
+
+E(multiplexNetwork_V2)$width <- 2
+plot(multiplexNetwork_V2, edge.color=c("dark red", "slategrey")[(E(multiplexNetwork_V2)$type=="friendship")+1],
+      vertex.color="gray40", layout=layout_in_circle, edge.curved=.3)
+
+```
