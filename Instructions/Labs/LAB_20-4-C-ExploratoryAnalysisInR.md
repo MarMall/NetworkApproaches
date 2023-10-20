@@ -42,6 +42,8 @@ This lab is divided into three sub-sections (for better orientability), and in t
 
 Let's load our two network relations from before into R and see what we can do with them.
 
+Should you prefer working directly in R with the RMarkdown file, please access the [file here](https://raw.githubusercontent.com/MarMall/NetworkApproaches/main/Instructions/Labs/data/2_firstStepsInEDA.rmd)
+
    ```r
    library(igraph) # load the igraph package for later 
 
