@@ -4,7 +4,7 @@ exclude:
   - .github/
   - Instructions/Demos/
   - Instructions/oldLabs/
-  - Instructions/Labs/LAB_20-4-C-ExploratoryAnalysisInR.md
+  
 
   
 header_pages:
