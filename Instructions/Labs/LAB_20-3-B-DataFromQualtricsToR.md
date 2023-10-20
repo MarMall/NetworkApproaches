@@ -179,7 +179,7 @@ dim(QID128) # nice, this is squared 14x14
 
 ## Exercise 5 - Turning the data into a matrix
 
-```r turningIntoMatrix
+```r 
 # 
 # QID149 # friendship relation
 # QID128 # influence
@@ -204,9 +204,10 @@ is.matrix(QID128_mat)
 
 ```
 
+
 ## Saving your network relation matrices in R
 
-```r savingNetworkMatrices
+```r
 
 # save the matrices as .RData files
 
